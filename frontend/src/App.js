@@ -40,7 +40,7 @@ function App() {
     e.preventDefault();
     if (!input.trim()) return;
 
-    // Add user message
+    // Add user messages
     const userMessage = { role: 'user', content: input };
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
