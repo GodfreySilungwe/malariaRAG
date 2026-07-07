@@ -6,7 +6,18 @@ sentence_transformers==4.1.0
 langchain-chroma==0.2.4
 langchain-huggingface==0.2.0
 openai==1.82.0
-streamlit==1.45.1
 gdown==5.2.1
 flask==2.3.3
 flask-cors==3.0.10
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-timeout==2.2.0
+
+# Linting
+flake8==6.1.0
+black==23.12.1
+
+# Code quality
+requests==2.31.0

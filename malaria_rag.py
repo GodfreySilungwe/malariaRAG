@@ -4,6 +4,7 @@ Provides retrieval, prompting with guardrails, citation extraction,
 and a simple answer API used by the Flask backend.
 """
 from typing import List, Tuple
+import re
 import time
 
 from langchain_core.documents import Document
@@ -74,13 +75,29 @@ def format_sources(docs: List[Document]) -> List[dict]:
     out = []
     for i, doc in enumerate(docs, start=1):
         page_number = _extract_page_number(doc)
+        title = doc.metadata.get("source") or doc.metadata.get("title") or f"Document {i}"
+        citation = title if page_number is None else f"{title} (page {page_number})"
         out.append({
             "id": i,
             "source": get_source_label(doc, i),
+            "document": title,
+            "page": page_number,
             "page_number": page_number,
+            "citation": citation,
             "meta": doc.metadata,
         })
     return out
+
+
+def clean_answer_text(text: str) -> str:
+    """Normalize the answer text while preserving inline citation markers."""
+    if not text:
+        return text
+
+    cleaned = re.sub(r"(?im)^\s*(citations?|references?)\s*:.*$", "", text)
+    cleaned = re.sub(r"\n\s*\n\s*(citations?|references?)\s*:.*", "", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned.strip()
 
 
 def answer_and_sources(question: str, top_k: int = TOP_K, max_tokens: int = 512) -> dict:
@@ -100,17 +117,18 @@ def answer_and_sources(question: str, top_k: int = TOP_K, max_tokens: int = 512)
     system = SystemMessage(content=(
         "You are an assistant that answers questions using ONLY the provided context. "
         "If the answer cannot be found in the context, reply: 'I don't know based on the provided policies.' "
-        "Keep answers concise (around 150-250 words) and always include citations in the form [n] referencing the provided sources."))
+        "Write a concise answer paragraph and include inline citations in the form [n] where relevant. "
+        "Also provide a separate citations section through the structured source metadata."))
 
     human = HumanMessage(content=(
         f"Context:\n{context_text}\n\nQuestion: {question}\n\n"
-        "Provide a short answer and then a short list of citations that support the answer. "
-        "Also include a one-line snippet for each cited source."))
+        "Provide a short answer paragraph with inline citations like [1] where the answer is supported by the context. "
+        "Do not add a separate citations list in the answer text."))
 
     chat_model = model_module.get_model()
     try:
         response = chat_model.invoke([system, human])
-        text = response.content
+        text = clean_answer_text(response.content)
     except Exception as e:
         text = f"Error invoking model: {e}"
 
@@ -118,8 +136,8 @@ def answer_and_sources(question: str, top_k: int = TOP_K, max_tokens: int = 512)
 
     return {
         "answer": text,
-        "sources": format_sources(docs),
         "snippets": [d.page_content[:500] for d in docs],
+        "sources": format_sources(docs),
         "latency_ms": latency,
     }
 
