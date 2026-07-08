@@ -26,7 +26,7 @@ class ChatModel(ChatOpenAI):
             **kwargs
         )
 
-def get_model(model_name: str = "google/gemma-4-31b-it:free") -> ChatModel:
+def get_model(model_name: str = "openrouter/free") -> ChatModel:
     """
     Gets a reference to a model
     
