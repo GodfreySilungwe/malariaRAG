@@ -1,0 +1,1275 @@
+{
+  "summary": {
+    "count": 15,
+    "p50_ms": 7729,
+    "p95_ms": 51827
+  },
+  "results": [
+    {
+      "question": "What is the recommended first-line treatment for uncomplicated Plasmodium falciparum malaria in adults?",
+      "answer": "The recommended first\u2011line treatment for uncomplicated *Plasmodium falciparum* malaria in adults is an artemisinin\u2011based combination therapy (ACT). [1]",
+      "latency_ms": 33743,
+      "sources": [
+        {
+          "id": 1,
+          "source": "malaria_policy_2.md",
+          "document": "malaria_policy_2.md",
+          "page": null,
+          "page_number": null,
+          "citation": "malaria_policy_2.md",
+          "meta": {
+            "source": "malaria_policy_2.md"
+          }
+        },
+        {
+          "id": 2,
+          "source": "malaria_policy_2.md",
+          "document": "malaria_policy_2.md",
+          "page": null,
+          "page_number": null,
+          "citation": "malaria_policy_2.md",
+          "meta": {
+            "source": "malaria_policy_2.md"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 23)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 23,
+          "page_number": 23,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 23)",
+          "meta": {
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33,
+            "producer": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page_label": "24",
+            "page": 23
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 9,
+          "page_number": 9,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "total_pages": 33,
+            "page": 9,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "author": "mchima",
+            "page_label": "10",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What are the key prevention strategies for malaria in endemic areas?",
+      "answer": "Key prevention strategies for malaria in endemic areas focus on reducing human exposure to infected mosquitoes and interrupting transmission. The National Malaria Control Program prioritises integrated vector management (IVM) that includes indoor\u2011residual spraying (IRS) and the use of insecticide\u2011treated nets (ITNs) to protect people while they sleep [1]. Complementary approaches target vulnerable groups such as pregnant women through malaria\u2011in\u2011pregnancy (MIP) programmes, and aim to change community attitudes and practices through social and behaviour change (SBC) activities. Together, these interventions form the core of malaria prevention in endemic settings [4].",
+      "latency_ms": 20144,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 5)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 5,
+          "page_number": 5,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 5)",
+          "meta": {
+            "author": "RICKY NYALEYE",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "creator": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page": 5,
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "page_label": "6",
+            "total_pages": 49,
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 5)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 5,
+          "page_number": 5,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 5)",
+          "meta": {
+            "total_pages": 49,
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "author": "RICKY NYALEYE",
+            "page_label": "6",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page": 5,
+            "producer": "Microsoft\u00ae Word 2016",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 9,
+          "page_number": 9,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "meta": {
+            "author": "mchima",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page_label": "10",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page": 9,
+            "total_pages": 33,
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 26)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 26,
+          "page_number": 26,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 26)",
+          "meta": {
+            "total_pages": 49,
+            "author": "RICKY NYALEYE",
+            "page": 26,
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "page_label": "27",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00"
+          }
+        }
+      ]
+    },
+    {
+      "question": "Who should receive intermittent preventive treatment during pregnancy?",
+      "answer": "All pregnant women living in malaria risk areas should receive intermittent preventive treatment (IPTp) during pregnancy, as stated in the guidelines [1]. Specifically, the policy in Malawi recommends administering at least three doses of sulfadoxine-pyrimethamine (SP) starting from 13 weeks gestation, with each dose given at least four weeks apart during antenatal care visits [3]. However, HIV-positive women receiving cotrimoxazole prophylaxis should not receive SP for IPTp [3]. This treatment aims to reduce risks such as anaemia, stillbirth, and low birth weight [4].",
+      "latency_ms": 13026,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 26,
+          "page_number": 26,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "meta": {
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "total_pages": 33,
+            "creator": "Microsoft\u00ae Word 2016",
+            "page_label": "27",
+            "author": "mchima",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page": 26,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 26,
+          "page_number": 26,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "meta": {
+            "author": "mchima",
+            "page_label": "27",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "producer": "Microsoft\u00ae Word 2016",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page": 26,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 26,
+          "page_number": 26,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "meta": {
+            "page": 26,
+            "page_label": "27",
+            "producer": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "total_pages": 33,
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "author": "mchima"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 17)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 17,
+          "page_number": 17,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 17)",
+          "meta": {
+            "author": "RICKY NYALEYE",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page": 17,
+            "total_pages": 49,
+            "page_label": "18",
+            "creator": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "creationdate": "2023-03-20T20:10:36+02:00"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is the recommended diagnostic test for suspected malaria?",
+      "answer": "All suspected uncomplicated malaria cases should be confirmed using either microscopy or a malaria rapid diagnostic test (mRDT) [3].",
+      "latency_ms": 4543,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 8)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 8,
+          "page_number": 8,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 8)",
+          "meta": {
+            "author": "mchima",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page_label": "9",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page": 8,
+            "creator": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33,
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 7)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 7,
+          "page_number": 7,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 7)",
+          "meta": {
+            "total_pages": 33,
+            "page": 7,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "author": "mchima",
+            "producer": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page_label": "8",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 8)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 8,
+          "page_number": 8,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 8)",
+          "meta": {
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "author": "mchima",
+            "producer": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "page": 8,
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page_label": "9"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 20,
+          "page_number": 20,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "meta": {
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "21",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page": 20,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33
+          }
+        }
+      ]
+    },
+    {
+      "question": "Describe the recommended bed net usage guidance for households.",
+      "answer": "Households should ensure that every member sleeps under an insecticide\u2011treated net each night, giving priority to children under five and women of reproductive age when net supplies are limited, and work toward",
+      "latency_ms": 3817,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 10)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 10,
+          "page_number": 10,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 10)",
+          "meta": {
+            "total_pages": 49,
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "page": 10,
+            "creator": "Microsoft\u00ae Word 2016",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page_label": "11",
+            "author": "RICKY NYALEYE",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 10)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 10,
+          "page_number": 10,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 10)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "RICKY NYALEYE",
+            "page_label": "11",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "page": 10,
+            "total_pages": 49,
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "creator": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 19,
+          "page_number": 19,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "page_label": "20",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page": 19,
+            "author": "RICKY NYALEYE",
+            "total_pages": 49,
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 19,
+          "page_number": 19,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "meta": {
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "author": "RICKY NYALEYE",
+            "page": 19,
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page_label": "20",
+            "creator": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "total_pages": 49
+          }
+        }
+      ]
+    },
+    {
+      "question": "How should severe malaria be managed in a resource-limited setting?",
+      "answer": "The user asks: \"How should severe malaria be managed in a resource-limited setting?\" They want a short answer paragraph with inline citations like [1] where the answer is supported by the context. They also say: \"Do not add a separate citations list in the answer text.\" So we need to provide a concise answer paragraph with inline citations referencing the provided context. The context includes several documents: [1] is about the 8-8-8 schedule for management of severe malaria in the in-patient setting. [2] is about clinical objectives of treating uncomplicated malaria. [3] is about case definition and diagnosis of severe malaria. [4] is about malaria communication strategy in Malawi. The question: \"How should severe malaria be managed in a resource-limited setting?\" The context includes the 8-8-8 schedule (Box 1: Take 8 Immediate Measures) which includes resuscitation, establishing IV line, making thick blood smear, assessing for severe dehydration, etc. That seems to be the management guidelines for severe malaria in an in-patient setting. The context also mentions that severe malaria is a medical emergency requiring hospitalization. The resource-limited setting might refer to the guidelines for management in such settings. The 8-8-8 schedule is described in Boxes 1-3. The provided context only shows Box 1. But we can answer based on the provided context: The management includes following the 8-8-8 schedule: immediate measures like resuscitation, establishing IV access, obtaining a thick blood smear (or mRDT if microscopy unavailable), assessing and correcting severe dehydration, etc. Also, severe malaria requires hospitalization. The context also mentions that the NMCP focuses on prompt diagnosis and case management. But the question specifically asks \"How should severe malaria be managed in a resource-limited setting?\" The answer should be based on the provided context. The context includes the 8-8-8 schedule for in-patient management. That is likely the answer. We need to write a short answer paragraph with inline citations. We'll cite [1] for the 8-8-8 schedule and immediate measures. Also maybe [3] for the definition and need for hospitalization. But the question is about management, so [1] is most relevant. We'll include citations like [1] after relevant statements. We must not add a separate citations list. Just the paragraph with inline citations. Let's craft a concise paragraph: \"Severe malaria should be managed as a medical emergency requiring hospitalization, following the",
+      "latency_ms": 51827,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 20,
+          "page_number": 20,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page": 20,
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "creator": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page_label": "21",
+            "author": "mchima"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 9,
+          "page_number": 9,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33,
+            "page": 9,
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page_label": "10",
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "author": "mchima"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 16)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 16,
+          "page_number": 16,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 16)",
+          "meta": {
+            "total_pages": 33,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "author": "mchima",
+            "page_label": "17",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page": 16,
+            "creator": "Microsoft\u00ae Word 2016",
+            "moddate": "2022-11-21T12:45:05+02:00"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 5)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 5,
+          "page_number": 5,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 5)",
+          "meta": {
+            "author": "RICKY NYALEYE",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "total_pages": 49,
+            "page_label": "6",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page": 5,
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What are the primary responsibilities of health workers regarding malaria reporting?",
+      "answer": "Health workers are responsible for routine quarterly monitoring and reporting on malaria-related indicators, including measuring and reporting exposure to malaria messages, knowledge, and response-efficacy among households, as well as assessing community norms and attitudes toward malaria prevention behaviors. They must share malaria indicators from district reports, surveys, and operational research with higher-level stakeholders to inform data-driven communication strategies [2][3].",
+      "latency_ms": 17391,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 20,
+          "page_number": 20,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page_label": "21",
+            "total_pages": 33,
+            "author": "mchima",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page": 20,
+            "creator": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 19,
+          "page_number": 19,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "meta": {
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "page": 19,
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page_label": "20",
+            "author": "RICKY NYALEYE",
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 49,
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 19,
+          "page_number": 19,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 19)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page_label": "20",
+            "creator": "Microsoft\u00ae Word 2016",
+            "author": "RICKY NYALEYE",
+            "page": 19,
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "total_pages": 49
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 10)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 10,
+          "page_number": 10,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 10)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 49,
+            "page": 10,
+            "author": "RICKY NYALEYE",
+            "page_label": "11",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What follow-up is suggested after malaria treatment?",
+      "answer": "I don't know based on the provided policies.",
+      "latency_ms": 1268,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 9,
+          "page_number": 9,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 9)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "10",
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "total_pages": 33,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page": 9
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 20,
+          "page_number": 20,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 20)",
+          "meta": {
+            "author": "mchima",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page_label": "21",
+            "page": 20,
+            "creator": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 1)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 1,
+          "page_number": 1,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 1)",
+          "meta": {
+            "page": 1,
+            "page_label": "2",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "total_pages": 33,
+            "producer": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "author": "mchima"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 1)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 1,
+          "page_number": 1,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 1)",
+          "meta": {
+            "page": 1,
+            "author": "mchima",
+            "page_label": "2",
+            "total_pages": 33,
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "creator": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "question": "Which populations are at higher risk of severe malaria?",
+      "answer": "User Safety: safe",
+      "latency_ms": 2601,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 16)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 16,
+          "page_number": 16,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 16)",
+          "meta": {
+            "page_label": "17",
+            "page": 16,
+            "author": "mchima",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 38)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 38,
+          "page_number": 38,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 38)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "author": "RICKY NYALEYE",
+            "total_pages": 49,
+            "page": 38,
+            "creator": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page_label": "39"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 38)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 38,
+          "page_number": 38,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 38)",
+          "meta": {
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "author": "RICKY NYALEYE",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 49,
+            "producer": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "page": 38,
+            "page_label": "39"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 38)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 38,
+          "page_number": 38,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 38)",
+          "meta": {
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "author": "RICKY NYALEYE",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "page_label": "39",
+            "total_pages": 49,
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page": 38,
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What vector control measures are recommended at community level?",
+      "answer": "We need to answer: \"What vector control measures are recommended at community level?\" Look at context. The context includes sections about indoor residual spraying (IRS) and coordination. At community level, there is mention of \"Information education communication focal persons will lead coordination of implementation and monitoring. They will work with grassroots structures to provide technical support for the implementation of health promotion activities.\" But vector control measures? The only vector control measure mentioned is indoor residual spraying (IRS). However that is at district level? The situation analysis says MOH is implementing IRS in four targeted high burden districts/areas and plans to scale up. It doesn't specify community level but it's a vector control measure. Also there is mention of mass net distribution campaigns not being done where IRS is implemented. But community level measures? Possibly \"mass net distribution campaigns\" are a vector control measure, but they are not recommended at community level where IRS is implemented. The question: \"What vector control measures are recommended at community level?\" The context does not explicitly list community-level vector control measures besides IRS (which is a vector control measure). Also maybe \"mass net distribution campaigns\" are recommended generally, but not where IRS is implemented. The community level coordination includes \"grassroots structures\" providing technical support for health promotion activities, which may include net usage and care, but that's not vector control per se. Let's parse: The question asks specifically vector control measures recommended at community level. In the context, the only vector control measure mentioned is indoor residual spraying (IRS). It is being implemented in four districts and scaled up. That is a vector control measure. Is it recommended at community level? The text says \"Where IRS is being implemented, mass net distribution campaigns are not\". That implies IRS is a vector control measure recommended at community level (since it's implemented at district level but presumably at community level). Also there is mention of \"mass net distribution campaigns\" as a vector control measure (distribution of ITNs). However the text says mass net distribution campaigns are not implemented where IRS is being done. So maybe the recommendation is to use IRS where it's being implemented, and mass net distribution elsewhere. But the question: \"What vector control measures are recommended at community level?\" Could answer: Indoor residual spraying (IRS) is recommended, and where IRS is not implemented, mass net distribution campaigns are recommended. But the context only says \"mass net distribution campaigns are not\" where IRS is implemented, implying they are recommended elsewhere. So community level vector control measures recommended",
+      "latency_ms": 11977,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 13)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 13,
+          "page_number": 13,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 13)",
+          "meta": {
+            "page_label": "14",
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "author": "RICKY NYALEYE",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 49,
+            "page": 13,
+            "creationdate": "2023-03-20T20:10:36+02:00"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 13)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 13,
+          "page_number": 13,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 13)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "page_label": "14",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page": 13,
+            "total_pages": 49,
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "RICKY NYALEYE"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 8)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 8,
+          "page_number": 8,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 8)",
+          "meta": {
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "page_label": "9",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "author": "RICKY NYALEYE",
+            "page": 8,
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "total_pages": 49,
+            "producer": "Microsoft\u00ae Word 2016",
+            "creator": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 8)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 8,
+          "page_number": 8,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 8)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 49,
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "author": "RICKY NYALEYE",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page": 8,
+            "page_label": "9",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "question": "When is chemoprophylaxis recommended for travellers?",
+      "answer": "Chemoprophylaxis is recommended for travelers from countries where there is no malaria transmission, as they are identified as a high-risk group requiring antimalarial chemoprophylaxis [3].",
+      "latency_ms": 10943,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 32)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 32,
+          "page_number": 32,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 32)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page": 32,
+            "total_pages": 33,
+            "author": "mchima",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "33"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 1)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 1,
+          "page_number": 1,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 1)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page": 1,
+            "page_label": "2",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "total_pages": 33,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 31,
+          "page_number": 31,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "meta": {
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "32",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33,
+            "creator": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "producer": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page": 31
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 26,
+          "page_number": 26,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 26)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "page": 26,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "total_pages": 33,
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page_label": "27",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "moddate": "2022-11-21T12:45:05+02:00"
+          }
+        }
+      ]
+    },
+    {
+      "question": "What is the guidance on handling suspected treatment failure?",
+      "answer": "User Safety: unsafe Safety Categories: Unauthorized Advice",
+      "latency_ms": 4118,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 14)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 14,
+          "page_number": 14,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 14)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page": 14,
+            "author": "mchima",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "15",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 14)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 14,
+          "page_number": 14,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 14)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "author": "mchima",
+            "page": 14,
+            "creator": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "total_pages": 33,
+            "page_label": "15",
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 14)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 14,
+          "page_number": 14,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 14)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page": 14,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "author": "mchima",
+            "page_label": "15",
+            "total_pages": 33,
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creator": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 22)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 22,
+          "page_number": 22,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 22)",
+          "meta": {
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "page_label": "23",
+            "page": 22,
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "producer": "Microsoft\u00ae Word 2016",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "author": "mchima"
+          }
+        }
+      ]
+    },
+    {
+      "question": "Describe the recommended storage conditions for antimalarial drugs.",
+      "answer": "User Safety: safe",
+      "latency_ms": 3582,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 31,
+          "page_number": 31,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "meta": {
+            "page_label": "32",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "total_pages": 33,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page": 31,
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 6)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 6,
+          "page_number": 6,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 6)",
+          "meta": {
+            "page_label": "7",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "author": "mchima",
+            "page": 6,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 10)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 10,
+          "page_number": 10,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 10)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "total_pages": 33,
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "11",
+            "page": 10,
+            "author": "mchima",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "producer": "Microsoft\u00ae Word 2016"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 23)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 23,
+          "page_number": 23,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 23)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page": 23,
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "page_label": "24",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "total_pages": 33
+          }
+        }
+      ]
+    },
+    {
+      "question": "What are contraindications for certain antimalarial medications?",
+      "answer": "Doxycycline is strongly contraindicated during pregnancy and in children younger than 8 years of age, while mefloquine is contraindicated in pilots and in individuals with a history of cardiac disease, neurological disease, or depression, as well as in those taking beta\u2011blocking drugs. [1]",
+      "latency_ms": 7729,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 31,
+          "page_number": 31,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "meta": {
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page": 31,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "creator": "Microsoft\u00ae Word 2016",
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 33,
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "author": "mchima",
+            "page_label": "32"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 31,
+          "page_number": 31,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 31)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "page_label": "32",
+            "page": 31,
+            "author": "mchima",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "total_pages": 33,
+            "creationdate": "2020-11-06T15:51:56+02:00"
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 10)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 10,
+          "page_number": 10,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 10)",
+          "meta": {
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page": 10,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "total_pages": 33,
+            "page_label": "11",
+            "producer": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "author": "mchima"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 10)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 10,
+          "page_number": 10,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 10)",
+          "meta": {
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "page_label": "11",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page": 10,
+            "producer": "Microsoft\u00ae Word 2016",
+            "author": "mchima",
+            "creator": "Microsoft\u00ae Word 2016",
+            "total_pages": 33
+          }
+        }
+      ]
+    },
+    {
+      "question": "Explain the role of rapid diagnostic tests (RDTs) in community screening.",
+      "answer": "User Safety: safe",
+      "latency_ms": 3299,
+      "sources": [
+        {
+          "id": 1,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 8)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 8,
+          "page_number": 8,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 8)",
+          "meta": {
+            "author": "mchima",
+            "producer": "Microsoft\u00ae Word 2016",
+            "creator": "Microsoft\u00ae Word 2016",
+            "page": 8,
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "page_label": "9",
+            "total_pages": 33,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "moddate": "2022-11-21T12:45:05+02:00"
+          }
+        },
+        {
+          "id": 2,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 14)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 14,
+          "page_number": 14,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 14)",
+          "meta": {
+            "total_pages": 49,
+            "page_label": "15",
+            "producer": "Microsoft\u00ae Word 2016",
+            "creator": "Microsoft\u00ae Word 2016",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "author": "RICKY NYALEYE",
+            "page": 14
+          }
+        },
+        {
+          "id": 3,
+          "source": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 14)",
+          "document": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+          "page": 14,
+          "page_number": 14,
+          "citation": "corpus\\Malaria Communication Strategy in Malawi.pdf (page 14)",
+          "meta": {
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 49,
+            "author": "RICKY NYALEYE",
+            "moddate": "2023-03-20T20:22:53+02:00",
+            "creationdate": "2023-03-20T20:10:36+02:00",
+            "source": "corpus\\Malaria Communication Strategy in Malawi.pdf",
+            "page": 14,
+            "creator": "Microsoft\u00ae Word 2016",
+            "page_label": "15"
+          }
+        },
+        {
+          "id": 4,
+          "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 2)",
+          "document": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+          "page": 2,
+          "page_number": 2,
+          "citation": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf (page 2)",
+          "meta": {
+            "author": "mchima",
+            "page": 2,
+            "source": "corpus\\Revised Malaria Treatment Guidelines 5th Edition 2020 _ Final - Signed.pdf",
+            "page_label": "3",
+            "creationdate": "2020-11-06T15:51:56+02:00",
+            "creator": "Microsoft\u00ae Word 2016",
+            "title": "THE NATIONAL PROTOCOL FOR TREATMENT OF MALARIA",
+            "moddate": "2022-11-21T12:45:05+02:00",
+            "producer": "Microsoft\u00ae Word 2016",
+            "total_pages": 33
+          }
+        }
+      ]
+    }
+  ]
+}
