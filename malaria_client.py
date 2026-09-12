@@ -1,4 +1,7 @@
-import streamlit as st
+try:
+    import streamlit as st
+except ModuleNotFoundError:
+    st = None
 import malaria_rag
 
 
@@ -22,45 +25,46 @@ def prepare_streamlit_display(response: dict) -> dict:
     }
 
 
-st.set_page_config(page_title="MalariaAI RAG", page_icon="🦟", layout="wide")
-st.title("🦟 MalariaAI RAG")
-st.caption("Ask questions about malaria policies and review the separate citations below each answer.")
+if st is not None:
+    st.set_page_config(page_title="MalariaAI RAG", page_icon="🦟", layout="wide")
+    st.title("🦟 MalariaAI RAG")
+    st.caption("Ask questions about malaria policies and review the separate citations below each answer.")
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
 
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
-        if message.get("citations"):
-            with st.expander("Citations"):
-                for citation in message["citations"]:
-                    st.markdown(f"**[{citation['id']}] {citation['citation']}**")
-                    if citation.get("snippet"):
-                        st.caption(citation["snippet"])
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
+            if message.get("citations"):
+                with st.expander("Citations"):
+                    for citation in message["citations"]:
+                        st.markdown(f"**[{citation['id']}] {citation['citation']}**")
+                        if citation.get("snippet"):
+                            st.caption(citation["snippet"])
 
-if prompt := st.chat_input("Ask about malaria policies..."):
-    with st.chat_message("user"):
-        st.markdown(prompt)
-    st.session_state.messages.append({"role": "user", "content": prompt, "citations": []})
+    if prompt := st.chat_input("Ask about malaria policies..."):
+        with st.chat_message("user"):
+            st.markdown(prompt)
+        st.session_state.messages.append({"role": "user", "content": prompt, "citations": []})
 
-    response = malaria_rag.answer_and_sources(question=prompt)
-    display = prepare_streamlit_display(response)
+        response = malaria_rag.answer_and_sources(question=prompt)
+        display = prepare_streamlit_display(response)
 
-    with st.chat_message("assistant"):
-        st.markdown(display["answer"])
-        if display["citations"]:
-            with st.expander("Citations"):
-                for citation in display["citations"]:
-                    st.markdown(f"**[{citation['id']}] {citation['citation']}**")
-                    if citation.get("snippet"):
-                        st.caption(citation["snippet"])
-        if display.get("latency_ms") is not None:
-            st.caption(f"Latency: {display['latency_ms']} ms")
+        with st.chat_message("assistant"):
+            st.markdown(display["answer"])
+            if display["citations"]:
+                with st.expander("Citations"):
+                    for citation in display["citations"]:
+                        st.markdown(f"**[{citation['id']}] {citation['citation']}**")
+                        if citation.get("snippet"):
+                            st.caption(citation["snippet"])
+            if display.get("latency_ms") is not None:
+                st.caption(f"Latency: {display['latency_ms']} ms")
 
-    st.session_state.messages.append({
-        "role": "assistant",
-        "content": display["answer"],
-        "citations": display["citations"],
-        "latency_ms": display.get("latency_ms"),
-    })
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": display["answer"],
+            "citations": display["citations"],
+            "latency_ms": display.get("latency_ms"),
+        })

@@ -1,4 +1,4 @@
-name: Test and Deploy to Render
+name: Test and Deploy to Railway
 
 on:
   push:
@@ -54,24 +54,30 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-latest
-    name: Deploy to Render
+    name: Deploy to Railway
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Deploy to Render
+      - name: Install Railway CLI
         run: |
-          curl https://api.render.com/deploy/${{ secrets.RENDER_SERVICE_ID }}?key=${{ secrets.RENDER_API_KEY }}
+          npm install --global @railway/cli
+      
+      - name: Deploy to Railway
+        run: |
+          railway up --ci \
+            --project "${{ secrets.RAILWAY_PROJECT_ID }}" \
+            --environment "${{ secrets.RAILWAY_ENVIRONMENT_ID }}" \
+            --service "${{ secrets.RAILWAY_SERVICE_ID }}"
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
       
       - name: Notify deployment
         if: success()
-        run: |
-          echo "✅ Successfully deployed to Render!"
-      
+        run: echo "Successfully deployed to Railway."
+
       - name: Notify failure
         if: failure()
-        run: |
-          echo "❌ Deployment to Render failed"
-          exit 1
+        run: echo "Railway deployment failed."

@@ -26,7 +26,7 @@ class ChatModel(ChatOpenAI):
             **kwargs
         )
 
-def get_model(model_name: str = "openrouter/free") -> ChatModel:
+def get_model(model_name: str = "inclusionai/ling-3.0-flash-vl:free") -> ChatModel:
     """
     Gets a reference to a model
     
