@@ -23,7 +23,7 @@ COPY . .
 WORKDIR /app/frontend
 RUN npm install && npm run build
 
-# Return to app directory
+# Return to app directorys
 WORKDIR /app
 
 # Create non-root user for security
