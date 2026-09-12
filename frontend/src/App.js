@@ -25,7 +25,7 @@ function App() {
   useEffect(() => {
     const checkHealth = async () => {
       try {
-        const response = await axios.get(`${API_URL}/health`, { timeout: 5000 });
+        await axios.get(`${API_URL}/health`, { timeout: 5000 });
         setBackendHealth('connected');
       } catch (error) {
         setBackendHealth('disconnected');
