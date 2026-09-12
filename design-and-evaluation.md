@@ -1,37 +1,51 @@
 # Design and Evaluation
 
-## Design choices
+## Design and Architecture Decisions
 
-- The application uses a retrieval-augmented generation pipeline that first ingests policy documents, chunks them, embeds them, and stores them in a local Chroma vector store.
-- Embedding model: sentence-transformers/all-MiniLM-L6-v2 via langchain-huggingface was chosen because it provides a good balance of quality and efficiency for local development and keeps the setup lightweight.
-- Chunking: documents are split with a recursive character splitter at roughly 800 tokens with 100 tokens of overlap. This keeps each chunk self-contained enough for retrieval while preserving context across boundaries.
-- Retrieval depth: the system uses top-k retrieval with k=4. This is a practical compromise between relevance, latency, and prompt size.
-- Prompt format: the prompt explicitly tells the model to use only the provided context, answer concisely, include inline citations, and return structured source metadata for the UI.
-- Vector store: Chroma was selected because it is easy to run locally, supports persistent storage under the repository, and integrates cleanly with the embedding workflow.
-- The backend exposes a Flask API for the browser app and a Streamlit UI for a lightweight local chat demo.
+### Retrieval-augmented generation
 
-## System architecture
+The application retrieves relevant chunks from malaria-policy documents before asking the language model to answer. This grounds responses in the supplied corpus and allows the application to return supporting sources rather than relying only on model memory.
 
-1. Ingestion: policy documents in the corpus folder are parsed and chunked.
-2. Indexing: chunks are embedded and persisted in Chroma under the chromadb folder.
-3. Retrieval: the backend retrieves relevant chunks for the user question.
-4. Generation: the LLM produces an answer with inline citations and the backend returns structured sources, snippets, and latency metadata.
-5. Presentation: the Flask/React UI and the Streamlit UI render the main answer, citations, and supporting snippets.
+### Document processing and storage
 
-## Evaluation approach
+PDF files are loaded with LangChain document loaders, split with a recursive character splitter, embedded with `sentence-transformers/all-MiniLM-L6-v2`, and persisted in Chroma. Chroma was selected because it is simple to run locally and integrates with the LangChain retrieval workflow.
 
-- The repository includes evaluation questions in eval_questions.json.
-- The script evaluate.py runs the evaluation set and records answers and latency.
-- The current implementation supports automated latency measurement and a human-review workflow for groundedness and citation accuracy.
-- Recommended evaluation metrics:
-  - Groundedness: confirm that each answer is supported by the retrieved context.
-  - Citation accuracy: confirm that each citation points to the correct source or passage.
-  - Latency: measure p50 and p95 response times over multiple requests.
+### Retrieval and prompting
 
-## Suggested evaluation workflow
+The default retrieval depth is `TOP_K = 4`, balancing context coverage and prompt size. The prompt instructs the model to use only retrieved context, answer concisely, preserve inline citation markers, and avoid unsupported claims.
+
+### Model integration
+
+The model adapter uses the OpenAI-compatible OpenRouter API. This keeps the application provider-flexible while allowing a remote hosted model to generate answers without serving an LLM locally.
+
+### Application interfaces
+
+Flask provides the `/health`, `/chat`, and frontend-serving routes. React provides the browser UI. The optional Streamlit client remains available for local experimentation but is not required by the deployed Flask/React service.
+
+### Deployment
+
+Railway builds the repository using the Dockerfile and starts `python app.py`. Flask binds to Railway's injected `PORT`. GitHub Actions runs the test suite before deploying pushes to `main` with the Railway CLI.
+
+## Evaluation Approach
+
+The repository uses three layers of evaluation:
+
+1. **Automated regression tests** in `tests/test_malaria_rag.py` cover source formatting, page extraction, response fields, Flask health/chat validation, and refusal configuration.
+2. **Evaluation harness** in `evaluate.py` runs questions from `eval_questions.json`, records answers and source metadata, and calculates p50 and p95 latency.
+3. **Human review** checks whether each answer is supported by its retrieved policy passages and whether citations identify the correct document and page.
+
+Recommended review criteria are:
+
+- Groundedness: claims are supported by retrieved policy text.
+- Citation accuracy: citations identify the relevant document and page.
+- Refusal behavior: unsupported questions receive the refusal response.
+- Latency: compare p50 and p95 response times.
+
+Run the automated checks with:
 
 ```bash
+python -m pytest tests/ -v --cov=. --cov-report=xml --tb=short
 python evaluate.py
 ```
 
-Review the generated output in eval_results.json and inspect whether the retrieved sources genuinely support each answer.
+The current automated suite contains 16 tests. Evaluation results are written to `eval_results.json`; model-dependent results require `OPENROUTER_API_KEY` and a populated vector store.

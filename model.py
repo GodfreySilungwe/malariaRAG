@@ -74,5 +74,3 @@ if __name__ == "__main__":
     chain = prompt_template | model
     response = chain.invoke({"playwright": "Ryan Calais Cameron"})
     print(response.content)
-
-    pass
