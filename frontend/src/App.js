@@ -20,7 +20,7 @@ function App() {
     scrollToBottom();
   }, [messages]);
 
-  // Check the backend health
+  // Check the backennd health
   useEffect(() => {
     const checkHealth = async () => {
       try {
