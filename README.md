@@ -6,6 +6,8 @@ MalariaAI RAG is a retrieval-augmented generation application that answers quest
 
 GitHub: https://github.com/GodfreySilungwe/malariaRAG
 
+Live application: https://malariarag-production.up.railway.app/
+
 
 ## Features
 
@@ -113,7 +115,11 @@ Run the evaluation harness against `eval_questions.json`:
 python evaluate.py
 ```
 
-See [design-and-evaluation.md](design-and-evaluation.md) for architecture and evaluation details.
+Supporting reports and project documentation are organized in the [`docs/`](docs/) folder:
+
+- [design-and-evaluation.md](docs/design-and-evaluation.md): design decisions, system architecture, and evaluation methodology.
+- [evaluation-report.md](docs/evaluation-report.md): question-level groundedness, citation accuracy, latency, and findings.
+- [ai-tooling.md](docs/ai-tooling.md): AI tools used, what worked, and limitations.
 
 ## Deployment
 
@@ -134,7 +140,7 @@ Required Railway service variable:
 OPENROUTER_API_KEY
 ```
 
-Railway supplies `PORT` automatically. See [DEPLOYMENT.md](DEPLOYMENT.md) for the deployment procedure and [deployed.md](deployed.md) for the public link.
+Railway supplies `PORT` automatically. See [DEPLOYMENT.md](docs/DEPLOYMENT.md) for the deployment procedure and [deployed.md](docs/deployed.md) for the public link.
 
 ## Project Structure
 
@@ -145,8 +151,7 @@ Railway supplies `PORT` automatically. See [DEPLOYMENT.md](DEPLOYMENT.md) for th
 - `model.py`: OpenRouter model adapter
 - `frontend/`: React web interface
 - `tests/`: automated regression and API tests
-- `design-and-evaluation.md`: design and evaluation document
-- `ai-tooling.md`: AI-assisted development notes
+- `docs/`: supporting documentation and evaluation reports
 
 ## Security
 

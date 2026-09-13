@@ -26,7 +26,7 @@ class ChatModel(ChatOpenAI):
             **kwargs
         )
 
-def get_model(model_name: str = "nex-agi/nex-n2.5-mini:free") -> ChatModel:
+def get_model(model_name: str = "inclusionai/ling-3.0-flash-vl:free") -> ChatModel:
     """
     Gets a reference to a model
     
@@ -40,18 +40,3 @@ def get_model(model_name: str = "nex-agi/nex-n2.5-mini:free") -> ChatModel:
         max_tokens=512,
         temperature=0
     )
-
-if __name__ == "__main__":
-# when run as a script, run some tests to demonstrate capabilities
-    model = get_model()
-    #from langchain_core.messages import HumanMessage
-    from langchain.prompts import ChatPromptTemplate
-
-    prompt_template = ChatPromptTemplate([
-        ("human", "You are a helpful assistant."),
-        ("human", "What is {playwright}'s most recent play?")
-        ])
-
-    chain = prompt_template | model
-    response = chain.invoke({"playwright": "Ryan Calais Cameron"})
-    print(response.content)
