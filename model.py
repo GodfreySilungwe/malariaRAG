@@ -26,7 +26,7 @@ class ChatModel(ChatOpenAI):
             **kwargs
         )
 
-def get_model(model_name: str = "inclusionai/ling-3.0-flash-vl:free") -> ChatModel:
+def get_model(model_name: str = "nex-agi/nex-n2.5-mini:free") -> ChatModel:
     """
     Gets a reference to a model
     
@@ -51,25 +51,6 @@ if __name__ == "__main__":
         ("human", "You are a helpful assistant."),
         ("human", "What is {playwright}'s most recent play?")
         ])
-
-    #response = model.invoke(
-    #    [HumanMessage("You are a helpful assistant."),
-    #     HumanMessage("What are some plays by Tawfiq al-Hakim?")])
-    # print(response.content)
-    #print("----------")
-    #response = model.invoke(
-    #    [HumanMessage("You are a helpful assistant."),
-    #     HumanMessage("What is Ryan Calais Camerons's most recent play?")])
-    #print(response.content)
-    #print("----------")
-    #response = model.invoke(
-    #    [HumanMessage("You are a helpful assistant."),
-    #     HumanMessage("What Broadway shows have more than 10,000 performances?")])
-    #print(response.content)
-
-    #print(prompt_template.invoke({"playwright": "Ryan Calais Cameron"}))
-    #response = model.invoke(prompt_template.invoke({"playwright": "Ryan Calais Cameron"}))
-    #print(response.content)
 
     chain = prompt_template | model
     response = chain.invoke({"playwright": "Ryan Calais Cameron"})
