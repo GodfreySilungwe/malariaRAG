@@ -28,8 +28,12 @@ def chat():
     if not question:
         return jsonify({"error": "question is required"}), 400
 
-    result = malaria_rag.answer_and_sources(question)
-    return jsonify(result)
+    try:
+        result = malaria_rag.answer_and_sources(question)
+        return jsonify(result)
+    except Exception as error:
+        app.logger.exception("Chat request failed")
+        return jsonify({"error": "Chat service failed", "detail": str(error)}), 500
 
 
 @app.route("/", methods=["GET"])

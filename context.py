@@ -9,6 +9,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
 from typing import Iterable
 
+_embedding_model = None
+
 def download_context_data(pdfs: Iterable[dict[str, str]], path: str = "./context_data") -> None:
     """
     Downloads PDFs and stores them in local storage.
@@ -65,9 +67,12 @@ def get_embedding_model(model_name: str = "sentence-transformers/all-MiniLM-L6-v
     :return: The embedding model.
     :rtype: HuggingFaceEmbeddings
     """
-    return HuggingFaceEmbeddings(model_name=model_name)
+    global _embedding_model
+    if _embedding_model is None:
+        _embedding_model = HuggingFaceEmbeddings(model_name=model_name)
+    return _embedding_model
 
-def create_vector_store(chunks: list[Document], embedding_model: Embeddings = get_embedding_model(), path: str = "./chromadb") -> Chroma:
+def create_vector_store(chunks: list[Document], embedding_model: Embeddings = None, path: str = "./chromadb") -> Chroma:
     """
     Create a persistent vector store from a list of chunked documents.
     
@@ -80,13 +85,14 @@ def create_vector_store(chunks: list[Document], embedding_model: Embeddings = ge
     :return: The vector store
     :rtype: Chroma
     """
+    embedding_model = embedding_model or get_embedding_model()
     return Chroma.from_documents(
         documents=chunks,
         embedding=embedding_model,
         persist_directory=path
     )
     
-def get_vector_store(embedding_model: Embeddings = get_embedding_model(), path: str = "./chromadb") -> Chroma:
+def get_vector_store(embedding_model: Embeddings = None, path: str = "./chromadb") -> Chroma:
     """
     Gets a persistent vector store.
     
@@ -97,6 +103,7 @@ def get_vector_store(embedding_model: Embeddings = get_embedding_model(), path: 
     :return: The vector store
     :rtype: Chroma
     """
+    embedding_model = embedding_model or get_embedding_model()
     return Chroma(
         persist_directory=path,
         embedding_function=embedding_model
