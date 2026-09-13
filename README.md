@@ -6,7 +6,6 @@ MalariaAI RAG is a retrieval-augmented generation application that answers quest
 
 GitHub: https://github.com/GodfreySilungwe/malariaRAG
 
-Share the repository with the `quantic-grader` GitHub account before submission.
 
 ## Features
 

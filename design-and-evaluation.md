@@ -6,7 +6,7 @@
 
 The application retrieves relevant chunks from malaria-policy documents before asking the language model to answer. This grounds responses in the supplied corpus and allows the application to return supporting sources rather than relying only on model memory.
 
-### Document processing and storage
+### Document processing and storages
 
 PDF files are loaded with LangChain document loaders, split with a recursive character splitter, embedded with `sentence-transformers/all-MiniLM-L6-v2`, and persisted in Chroma. Chroma was selected because it is simple to run locally and integrates with the LangChain retrieval workflow.
 
